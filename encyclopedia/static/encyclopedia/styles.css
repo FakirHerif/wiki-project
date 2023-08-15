@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    background-color: white;
+}
+
+code {
+    white-space: pre;
+}
+
+h1 {
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+textarea {
+    height: 50vh;
+    width: 80%;
+}
+
+.main {
+    padding: 10px;
+}
+
+.search {
+    width: 100%;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.sidebar {
+    background-color: #f0f0f0;
+    height: 100vh;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+.searchContainer {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    background: #ffffff; /* Arama çubuğunun arka plan rengini istediğiniz gibi ayarlayabilirsiniz */
+    border: 1px solid #dfe1e5; /* Arama çubuğunun kenarlık rengini istediğiniz gibi ayarlayabilirsiniz */
+    border-radius: 24px; /* Arama çubuğunun köşelerini istediğiniz gibi ayarlayabilirsiniz */
+    padding: 10px; /* Arama çubuğu içindeki boşluğu istediğiniz gibi ayarlayabilirsiniz */
+    width: auto;
+    margin: 0 auto;
+    box-shadow: none;
+    margin-top: 25px;
+    overflow: hidden;
+    padding: 3px;
+  }
+
+  .searchContainer input {
+    border: none;
+    width: 100%; /* Arama çubuğunu genişliğiyle orantılı hale getirmek için */
+}
+
+  .searchContainer:hover {
+    box-shadow: 0 0 12px rgba(33,33,33,.2); 
+
+  }
+
+.iconContainer {
+    margin-left: 5px; /* İstediğiniz boşluk miktarına göre ayarlayabilirsiniz */
+  }
+  
+  .leftSpan {
+    height: 30px;
+    width: 30px;
+    margin-bottom: 2px;
+    margin-left: 11px;
+    color: #9aa0a6;
+    fill: currentColor;
+}
+
+.search {
+    background: #fff;
+    border: #fff;
+    padding: 12px;
+    width: 584px;
+    display: block;
+    margin: 0 auto;
+    outline: none;
+
+}
